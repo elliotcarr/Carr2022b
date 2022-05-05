@@ -3,16 +3,15 @@ clear all
 clc
 
 %%
-addpath('/Users/carre/Dropbox/Documents/Research/Code/Other packages/export_fig-master')
-path_name = '/Users/carre/Dropbox/Documents/Research/Projects/Spatial averaged model/Paper PA/Figures/';
+path_name = cd;
 
 % Select test case
-% Case = 'A'; % disc/sphere with absorbing boundary
+Case = 'A'; % disc/sphere with absorbing boundary
 % Case = 'B'; % disc/sphere with semi-absorbing boundary
 % Case = 'C'; % annulus/spherical shell with reflecting inner and absorbing outer boundary
 % Case = 'D'; % annulus/spherical shell with reflecting inner and semi-absorbing outer boundary
 % Case = 'E'; % annulus/spherical shell with absorbing inner and outer boundary
-Case = 'F'; % annulus/spherical shell with semi-absorbing inner and outer boundary
+% Case = 'F'; % annulus/spherical shell with semi-absorbing inner and outer boundary
 
 % save_figs = false;
 save_figs = true;
