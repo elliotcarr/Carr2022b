@@ -30,7 +30,7 @@ for k = 1:Ns % loop over stochastic simulations
             rn = rand;
             if rn <= P % move
                 if d == 1
-                    dx = sign(rand-0.5);
+                    dx = delta*sign(rand-0.5);
                 elseif d == 2
                     theta = 2*pi*rand;
                     dx = delta*[cos(theta),sin(theta)];
